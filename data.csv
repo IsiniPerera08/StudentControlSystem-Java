@@ -1,0 +1,15 @@
+StudentID,FirstName,LastName,CourseEnrolled,YearLevel,CWA,Status,CreditsEarned
+S1234567,Alice,Brown,Computer Science,3,78.53,FT,72
+S1345690,David,McMeekin,Software Engineering,4,99.12,FT,300
+S3456789,Keven,Rashleigh,Basket Weaving,1,98.36,FT,100
+S1111111,Nesandi,Ranaweera,Software Engineering,2,50.9,FT,389
+S1111112,Monadi,Subasinghe,Information Technology,4,99.1,FT,400
+S1111113,Minudi,Abeysinghe,Computer Science,3,78.7,FT,278
+S1111114,Methni,Perera,Software Engineering,2,40.0,PT,176
+S1111115,Pasandul,Liyanage,Mechatronics,2,99.59,FT,400
+S1111116,Thinuli,Fernando,Information Technoloy,4,99.7,FT,256
+S1111117,Linumi,ranaweera,INformation technology,3,60.0,FT,350
+S1111119,Binuli,Perera,Software Engineering,2,98.0,FT,350
+S1234522,Ayansa,Perera,Information Technology,2,78.0,FT,289
+S1111123,Liyansa,Perera,Information Technology,1,50.0,FT,200
+123456,Himandi,Fernando,Cyber Security,1,50.0,FT,400
