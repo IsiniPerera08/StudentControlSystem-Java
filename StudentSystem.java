@@ -1,8 +1,4 @@
 /*******************************************************************************
-*    Name : Isini Ayansa Perera
-*    Curtin ID : 23601321
-*    File : StudentSystem.java
-*    Date : 12/10/2025
 *    Purpose : This manages the students using arrays and CSV, this loads
 *               saves data from Details.java and Student.java, provides a menu
 *               and does the task according to the choice of the user.
