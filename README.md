@@ -1,51 +1,92 @@
-# COMP1007-StudentControlSystem-Java-
-Developed a Java-based Student Management System using arrays and CSV file handling to manage student records. Features include adding and editing students, filtering by course/status, CWA analysis, and graduation eligibility checks.
+# COMP1007 – Student Control System (Java)
 
-Overview 
-This is a program to manage students using java, arrays and a CSV file. You can 
-•  Add new students 
-•  Edit students 
-•  View all students 
-•  Filter by course 
-•  Filter by status  
-•  Highest CWA, 
-•  Average CWA for each course 
-•  Credit Analysis (eligible to graduate or not) 
-Files in this folder (23601321_IsiniAyansaPerera(PDI)) 
-• Details.java- This stores the academic data for one student and validates the data such 
-as courseEnrolled, yearLevel, CWA, status(FT/PT), creditsEarned. 
-• Student.java- Stores students’ information such as StudentID, firstName, lastName and a 
-Details object. 
-• StudentSystem.java- The main program, it loads, saves the CSV and prints the menu to 
-the user. 
-• data.csv- The CSV file that contains the data 
-• Video demonstration the work 
-• The pseudocode file- The file that contains the pseudocode of my three java files. 
-• COMP1007 Assignment Self‑Check Poster 
-• README- Student Control System 
-How to compile and run 
-Navigate to the relevant folder of the files in terminal and compile the main program as 
-‘javac StudentSystem.java’. Then run the program using the command ‘java StudentSystem’. 
-Then the terminal will output the menu then by choosing the option functions can be done. 
-Data file format (data.csv) 
-The program reads this file at the start of the program and writes to it once student add or 
-edits and also when the program is exited. The data of the students are in the order of- 
-‘studentID,firstName,lastName,courseEnrolled,yearLevel,cwa,status,creditsEarned’. 
-2 
-Example: 123456,Himandi,Fernando,Networking,1,50,FT,400 
-Dependancies 
-• Java Development Kit (JDK) 17 
-• Terminal to run the program 
-• CSV file: data.csv in the same folder as the other java files 
-Features of the program 
-• Add new student: in this it validates all fields and it requires a unique student ID 
-• Edit student: student is found by the unique ID, can press ‘Enter’ to keep an old value, 
-and new values are again validates 
-• View all Students: this prints all students that are saved in the CSV file in the CSV format 
-• Filter by Course: this finds the other courses that is equal to what the user inputed 
-• Filter by status: this finds the students that are either FT or PT based on the user input 
-• Highest CWA: this would find the maximum CWA and list all the students who have it 
-• Average CWA per course: this would calculate the average for all the courses and groups 
-by course and prints average CWA 
-• Credit Analysis: this shows whether a student is eligible or not and in the end outputs 
-the total eligibility counts out of the total
+A Java-based **Student Management System** developed. The system uses **arrays and CSV file handling** to store, manage, and analyse student records through a simple terminal-based interface.
+
+## Overview
+
+The Student Control System allows users to manage student academic records and perform different types of analysis.
+
+### Main Functions
+
+* Add new students
+* Edit existing student records
+* View all students
+* Filter students by course
+* Filter students by study status (FT/PT)
+* Find students with the highest CWA
+* Calculate average CWA for each course
+* Analyse credit completion and graduation eligibility
+
+---
+
+## Project Structure
+
+| File                                    | Description                                                                                                                 |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `Details.java`                          | Stores and validates a student's academic information, including course, year level, CWA, study status, and credits earned. |
+| `Student.java`                          | Stores a student's personal information, including Student ID, first name, last name, and their `Details` object.           |
+| `StudentSystem.java`                    | Main program that loads student data, displays the menu, handles user input, and saves updated data to the CSV file.        |
+| `data.csv`                              | CSV file used to store student records.                                                                                     |
+| `Pseudocode`                            | Contains the pseudocode for the three Java classes.                                                                         |                                                                           |
+| `Video Demonstration`                   | Demonstrates the functionality of the completed system.                                                                     |
+| `README.md`                             | Documentation for the project.                                                                                              |
+
+---
+
+## Technologies Used
+
+* **Java**
+* **Arrays**
+* **CSV File Handling**
+* **Object-Oriented Programming**
+* **Terminal / Command Line**
+
+---
+
+## Dependencies
+
+The following are required to run the program:
+
+* **Java Development Kit (JDK) 17**
+* A terminal or command-line interface
+* `data.csv` located in the same folder as the Java files
+
+---
+
+## How to Compile and Run
+
+### 1. Navigate to the project folder
+
+Open a terminal and navigate to the folder containing the Java files.
+
+```bash
+cd path/to/project
+```
+
+### 2. Compile the program
+
+Compile the main Java program using:
+
+```bash
+javac StudentSystem.java
+```
+
+### 3. Run the program
+
+```bash
+java StudentSystem
+```
+
+The program will display a menu in the terminal. Select an option from the menu to perform the required operation.
+
+---
+
+## Data File Format
+
+The system uses a CSV file named `data.csv` to store student records.
+
+The data is stored in the following order:
+
+```text
+studentID,firstName,lastName
+```
