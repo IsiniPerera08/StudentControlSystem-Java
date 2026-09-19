@@ -1,8 +1,4 @@
 /*******************************************************************************
-*    Name : Isini Ayansa Perera
-*    Curtin ID : 23601321
-*    File : Details.java
-*    Date : 12/10/2025
 *    Purpose : This file contains data of the a students academic information 
 *               such as courseEnrolled, yearLevel, cwa, status, creditsEarned
 *******************************************************************************/
